@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TEST</title>
+</head>
+<body>
+    <h1>June Second Week Exam</h1>
+
+<p>Q. In how many ways can we loop in an array describe each with an example ?</p>
+<h2>Check the Answers in Console</h2>
+
+<h4>Method 1</h4>
+<h5>
+    //<span style="color: aqua;"> for</span> loop </h5>
+<p>
+    let myTodo = ["drink water every 2 hrs " , "sleep for 6 hrs", "do exercise", "meditation", "learn new things"];</p>
+
+
+    <span style="color: aqua;">for </span> (let i =0; i < myTodo.length; i++)</br>{
+    console.log(myTodo[i]);
+}
+
+</p>
+
+<h4>Method 2</h4>
+<h5>//<span style="color: aqua;"> for</span> loop with if condition inside it </h5>
+<p>
+
+    let a = [1,2,3,7,9,6,8,0,4,5,6,7,8,9,10]</p>
+    function printEvenArray(a) </br>{
+        
+    
+   <span style="color: aqua;"> for</span> (j = 0; j < a.length; j++){</br>
+        if (a[j] % 2===0){</br>
+            console.log(a[j]);}</br>
+        
+        
+    }</br>
+}</br>
+    printEvenArray(a)
+</p>
+
+
+<h4>Method 3</h4>
+<h5>// <span style="color: red;">while</span> loop </br>
+    // program  to print the shapes </h5>
+
+<p>
+    
+let shapes = [ "square" , "rectangle", "circle"]; </br>
+function <span style="color: red;">while</span>Array(shapes) {  </br>
+    let k = 0; </br>
+    <span style="color: red;">while</span> (k < shapes.length){  </br>
+
+console.log(shapes[k]);  </br>
+        k++; </br>
+    }  </br>
+   
+    
+}  </br>
+<span style="color: red;">while</span>Array(shapes)
+</p>
+<h4>Method 4</h4>
+<h5>// <span style="color:orange ;">do</span> <span style="color: red;">while</span> in an array</h5>
+
+<p>
+
+    let text = ["red", "blue", "green"] </br>
+let x = 0; </br>
+
+<span style="color:orange ;">do</span> { </br>
+    console.log(text[x]);   </br>
+  x++; </br>
+} </br>
+<span style="color: red;">while</span> (x < text.length); 
+
+</p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
