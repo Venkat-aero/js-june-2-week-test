@@ -71,4 +71,18 @@ do {
 }
 while (x < text.length);
 
+console.log("-----------Method 5------------");
+
+var details = [
+    {id: 101, name: 'Jack', age: 37},
+    {id: 102, name: 'Trevor', age: 45},
+    {id: 103, name: 'Logan', age: 29},
+    {id: 104, name: 'Katie', age: 23},
+    {id: 105, name: 'Perry', age: 28}
+];
+
+for (let profile of details) {
+    console.log(profile.name , profile.age)
+}
+
 
