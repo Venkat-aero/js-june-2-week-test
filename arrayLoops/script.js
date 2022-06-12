@@ -83,6 +83,7 @@ var details = [
 
 for (let profile of details) {
     console.log(profile.name , profile.age)
+    
 }
 
 
